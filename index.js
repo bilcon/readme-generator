@@ -17,7 +17,45 @@ const questions = [
             return false;
         }
     }
-}
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please enter your GitHub username. (Required)',
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log('Please enter your GitHub username!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'repo',
+        message: 'Please enter the name of your repo. (Required)',
+        validate: repoInput => {
+            if (repoInput) {
+                return true;
+            } else {
+                console.log('Please enter the name of your repo!')
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Provide a description of your application. (Required)',
+        validate: descInput => {
+            if (descInput) {
+                return true;
+            } else {
+                console.log('Please enter a description!');
+                return false;
+            }
+        }
+    },
 
 ];
 
