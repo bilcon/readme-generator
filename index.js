@@ -56,6 +56,102 @@ const questions = [
             }
         }
     },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please provide information for using your application. (Required)',
+        validate: usageInput => {
+            if (usageInput) {
+                return true;
+            } else {
+                console.log('Please provide information for using your application!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'checkbox',
+        name: 'contents',
+        message: 'Any additional sections you would like to include in your README?',
+        choices: [
+            {
+                name: 'Deployed Application',
+                checked: false
+            },
+            {
+                name: 'Installation',
+                checked: false
+            },
+            {
+                name: 'Screenshots',
+                checked: true
+            },
+            {
+                name: 'Built With',
+                checked: true
+            },
+            {
+                name: 'License',
+                checked: false
+            },
+            {
+                name: 'Contributing',
+                checked: false
+            },
+            {
+                name: 'Tests',
+                checked: false
+            },
+            {
+                name: 'Questions',
+                checked: true
+            },
+            {
+                name: 'Credits',
+                checked: true
+            },
+        ]
+    },
+    {
+        type: 'input',
+        name: 'link',
+        message: 'Please provide a link to your deployed application.',
+        when: ({ contents }) => {
+            if (contents.indexOf('Deployed Application') > -1) {
+                return true;
+            } else { 
+                return false;
+            }
+        },
+        validate: linkInput => {
+            if (linkInput) {
+                return true;
+            } else {
+                console.log('Please enter a link!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Please list any required packages for installation of your application.',
+        when: ({ contents }) => {
+            if (contents.indexOf('Installation') > -1) {
+                return true;
+            } else {
+                return false;
+            }
+        },
+        validate: installInput => {
+            if (installInput) {
+                return true;
+            } else {
+                console.log('Please enter installation instructions!');
+                return false;
+            }
+        }
+    },
 
 ];
 
