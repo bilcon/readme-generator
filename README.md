@@ -1,4 +1,4 @@
-# ReadMe
+# readme
   ![Github license](https://img.shields.io/badge/license-undefined-blue)
 
   ## Licensing:
@@ -14,16 +14,26 @@
   - [Additional Info](#additional-info)
 
   ## Description:
-  alsdfds lfldas f
+  kdsafj kas faks dfklsdjkf ksadjf akfka kflka fklajkfa sfkljafkl kasfkjas kdfjklsajl fskaldfj
+ajfasj fk alf sakj flka f
+afjdsa klf jska fkl asdf jaslfasj
+fasdjfklasj fkl jafj
+asdf
+j safjas
+df asfj
+
+asjjf
+ js
+jf
 
   ## Installation:
-  npm insta
+  install
 
   ## Usage:
   
 * [License](#license)
 
-  cardful
+  carefully
   ## License 
   
     The application is covered under the following undefined license.
@@ -31,11 +41,11 @@
   MIT
 
   ## Contribution:
-  
+  not
 
   ## Testing:
-  npm test
+  sometimes
 
   ## Additional Info:
-  - Github: [bilcl](https://github.com/bilcl)
-  - Email: bilc@mail.com
+  - Github: [bill](https://github.com/bill)
+  - Email: bill
