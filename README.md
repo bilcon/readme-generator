@@ -1,4 +1,4 @@
-# readme
+# ReadMe Generator: NODE.js
   ![Github license](https://img.shields.io/badge/license-undefined-blue)
 
   ## Licensing:
@@ -14,26 +14,17 @@
   - [Additional Info](#additional-info)
 
   ## Description:
-  kdsafj kas faks dfklsdjkf ksadjf akfka kflka fklajkfa sfkljafkl kasfkjas kdfjklsajl fskaldfj
-ajfasj fk alf sakj flka f
-afjdsa klf jska fkl asdf jaslfasj
-fasdjfklasj fkl jafj
-asdf
-j safjas
-df asfj
+  This app will generate a ReadMe file by answering a few prompts.
 
-asjjf
- js
-jf
 
   ## Installation:
-  install
+  By cloning the repository and installing node npm
 
   ## Usage:
   
 * [License](#license)
 
-  carefully
+  After cloning and installing npm run 'node index.js'
   ## License 
   
     The application is covered under the following undefined license.
@@ -41,11 +32,13 @@ jf
   MIT
 
   ## Contribution:
-  not
+  At this time no contributions are being accepted
 
   ## Testing:
-  sometimes
+  By running 'node index.js' in the terminal and answering all the questions
 
   ## Additional Info:
-  - Github: [bill](https://github.com/bill)
-  - Email: bill
+  - Github: [bilcon](https://github.com/bilcon/readme-generator)
+  - Email: bilcon@swbell.net
+  - Screencastify: https://watch.screencastify.com/v/yO6zGT1QLXtJ3KW7IQeF
+
