@@ -21,7 +21,7 @@
 
   ## Usage:
   
-* [License](#license)
+    * [License](#license)
 
   After cloning and installing npm run 'node index.js'
   ## License 
