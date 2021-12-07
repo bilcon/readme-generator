@@ -1,5 +1,4 @@
 # ReadMe Generator: NODE.js
-  ![Github license](https://img.shields.io/badge/license-undefined-blue)
 
   ## Licensing:
   ![license](https://img.shields.io/badge/license-MIT-blue)
@@ -12,6 +11,7 @@
   - [Contribution](#contribution)
   - [Testing](#testing)
   - [Additional Info](#additional-info)
+  - [License](#license)
 
   ## Description:
   This app will generate a ReadMe file by answering a few prompts.
@@ -20,12 +20,10 @@
   by cloning the repository and installing node npm
 
   ## Usage:
-  
-    * [License](#license)
-
   After cloning and installing npm run 'node index.js'
+
   ## License 
-  
+ 
   MIT License
 
   Copyright (c) [year] [fullname]
@@ -47,9 +45,6 @@
   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   SOFTWARE.   
-
-  ## License:
-  MIT
 
   ## Contribution:
   At this time no contributions are being accepted
